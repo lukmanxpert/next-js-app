@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <nav>
           <NavBar></NavBar>
         </nav>
-        <main className="h-screen place-items-center place-content-center">{children}</main>
+        <main className="h-screen">{children}</main>
         <footer>
           <Footer></Footer>
         </footer>
