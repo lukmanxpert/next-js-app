@@ -23,6 +23,9 @@ const NavBar = () => {
                 <Link href={"/registration"}>
                     <li>Registration</li>
                 </Link>
+                <Link href={"/posts"}>
+                    <li>Posts</li>
+                </Link>
             </ul>
         </div>
     } else {
